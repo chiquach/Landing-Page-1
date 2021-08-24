@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Pillow Project</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo">
+            <img src="images/pillow.png" alt="Logo" />
+        </div>
+        <ul class="nav-list">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <section data-nav="Home" class="header1" id="header1">
+            <header class="intro">
+                <h2>Pillow Project</h2>
+            </header>
+        </section>
+        <section data-nav ="About Us" class="about-us" id="about-us">
+            <h2>About Us</h2>
+            <div class="about">
+                <div class="about-wrapper">
+                    <p>Pillow Project is a non-profit organization 
+                        aiming to raise the awareness about 
+                        mental health and wellness. Our team is
+                        composed of Vietnamese abroad students 
+                        from all around the world. We provide 
+                        confession and 1:1 therapy session.
+                    </p>
+                </div>
+                <span class="image">
+                    <img src="images/pillowgif.gif" src="About Us" />
+                </span>
+            </div>
+        </section>
+        <section data-nav="Facebook Post" class="fb-post" id="fb-post">
+            <h2>Our Facebook</h2>
+            <div class="post-wrapper">
+                <div class="card">
+                    <div class="post">
+                        <img src="images/netiquette.png" alt="Netiquette" width="400px">
+                    </div>
+                    <div class="post-text">
+                        <h3>Tips for Tuesday <br />
+                            Netiquette
+                        </h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="post">
+                        <img src="images/tipgiubinhtinh.png" alt="Tips to calm down" width="400px">
+                    </div>
+                    <div class="post-text">
+                        <h3>Tips for Tuesday <br />
+                            Tips to calm down
+                        </h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="post">
+                        <img src="images/thathu.png" alt="Forgiving" width="400px">
+                    </div>
+                    <div class="post-text">
+                        <h3>Tips for Tuesday <br />
+                            Forgiving
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-nav="Keep In Touch" class="contact" id="contact">
+            <h2>Reach out to us</h2>
+            <div class="contact-wrapper">
+                <form method="INFO">
+                    <p class="top">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name"
+                            required
+                        />
+
+                    <label for="email" class="email-label">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                    />
+                    </p>
+                    <p class="submit-button">
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span class="text">
+            Pillow Project. All Rights Reserved.
+        </span>
+    </footer>
+    <script src="app.js"></script>
+    </body>
+</html>

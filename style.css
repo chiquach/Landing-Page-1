@@ -1,0 +1,161 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    overflow: hidden;
+    padding: 60px 0;
+    margin: 0;
+}
+/*Navigation*/
+.navigation {
+    height: 80px;
+    background: #f8e8e8;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation .logo img {
+    display: none;
+}
+
+.navigation .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigtion .nav-list .nav-item {
+    padding-right: 25px;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.navigation .nav-list .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation .nav-list .nav-link.active {
+    text-decoration: underline;
+    color: white;
+}
+
+li {
+    margin-left: 20px;
+}
+/*Header*/
+.header {
+    background-color: white;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-text {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+intro-text h2 {
+    color: #525f9b;
+    font-size: 18px;
+}
+
+.image {
+    text-align: center;
+}
+
+/*About*/
+.about-wrapper {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-wrapper .text {
+    width: 100%;
+}
+
+.about-wrapper .image img{
+    display: none;
+}
+
+/*Facebook Post*/
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.card {
+    font-size: 12px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.text-wrapper {
+    text-align: center;
+    font-size: 12px;
+}
+/*Contact*/
+.contact-wrapper {
+    width: 100%;
+    margin: auto;
+    align-content: center;
+}
+
+.contact-wrapper .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+input[type="email"], input[name="name"] {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Footer*/
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #f8e8e8; 
+}
+
+.footer .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 576) {
+    .container {
+        max-width: 540;
+    }
+
+    .navigation .logo img {
+        width: 60px;
+        display: block;
+    }
+
+}
+
